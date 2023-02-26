@@ -75,7 +75,7 @@ E2 =tk.Entry(window,  width=10, bg="lightblue")
 
 E3=tk.Entry(window, width=10, bg="lightblue")
 
-btn=Button(window, text='Решить',font='Arial 20', fg='black', bg='#32a852', command=solve)
+btn=Button(window, text='to solve',font='Arial 20', fg='black', bg='#32a852', command=solve)
 
 
 E1.grid(row=1,column=0)
