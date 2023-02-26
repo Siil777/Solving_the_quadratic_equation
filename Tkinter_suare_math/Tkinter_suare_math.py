@@ -9,6 +9,12 @@ import math
 
 
 def solve():
+   """it needs to input sides to resolve the equation.
+      Label mirrors information on the frame of Tkinter.
+      config helps to reflect the solution of equation on the frame of Tkinter.
+      Entry a space to input some type of data for colcutation.
+  
+   """
    a=float(E1.get())
    b=float(E2.get())
    c=float(E3.get())
@@ -32,6 +38,7 @@ def solve():
 window=tk.Tk()#responds for formation 
 window.title('The first window') 
 window.geometry('600x300')# change size
+
 
 
 
