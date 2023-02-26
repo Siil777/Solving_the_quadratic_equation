@@ -17,12 +17,12 @@ def solve():
    if D<0:
        
        
-        result.config(text="Уравнение не имеет действительных корней")
+        result.config(text="The equation has no real roots")
         
    else:
         x1 = (-b + D**0.5) / (2*a)
         x2 = (-b - D**0.5) / (2*a)
-        result.config(text=f"Корни уравнения:\n x1 = {x1}\n x2 = {x2}")
+        result.config(text=f"roots of the equation:\n x1 = {x1}\n x2 = {x2}")
 
  
         
@@ -44,11 +44,11 @@ window.geometry('600x300')# change size
 
 
 
-lbl=tk.Label(window,text='Решение квадратного уровнения', font='Arial 20', bg="lightblue")
+lbl=tk.Label(window,text='Square level solution', font='Arial 20', bg="lightblue")
 lbl1=tk.Label(window,text='x**2+')
 lbl2=tk.Label(window,text='x+')
 lbl3=tk.Label(window,text='=0')
-result = tk.Label( text="Решение", bg="yellow", width=25, height=4, font=("Arial", 16))
+result = tk.Label( text="Solution", bg="yellow", width=25, height=4, font=("Arial", 16))
 #lbl.pack(pady=10)
 
 #E1 = Entry(window, bd =5)
