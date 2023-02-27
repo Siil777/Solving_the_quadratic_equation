@@ -36,7 +36,7 @@ def solve():
        
 
 window=tk.Tk()#responds for formation 
-window.title('The first window') 
+window.title('Math') 
 window.geometry('600x300')# change size
 
 
